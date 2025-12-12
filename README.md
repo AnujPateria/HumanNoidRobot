@@ -26,17 +26,7 @@ Unlike existing global solutions that cost between ₹20-60 Lakh, Kritrim provid
 
 ---
 
-## 👨‍💻 My Contribution: Real-Time Voice Intelligence
-**Role:** Voice AI & Interaction Developer
 
-I was responsible for engineering the core conversational capabilities of Kritrim, focusing on creating a seamless, low-latency verbal interaction system.
-
-* **LiveKit Integration:** Built a real-time voice assistant module using **LiveKit** to handle streaming audio data efficiently, minimizing latency.
-* **Natural Conversation Flow:** Engineered the interaction loop to support natural, interruption-handling conversations rather than rigid command-response loops.
-* **Student Support Optimization:** Tuned the voice model to specifically resolve complex university student queries, allowing the robot to act as an automated receptionist for campus settings.
-* **Multilingual Pipeline:** Integrated Speech-to-Text (STT) and NLP models to ensure accurate query resolution across different languages.
-
----
 
 ## 🛠️ Tech Stack
 
