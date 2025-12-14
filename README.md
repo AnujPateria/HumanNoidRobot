@@ -1,60 +1,71 @@
-# 🤖 Kritrim: AI-Driven Multilingual Humanoid Robot
+🤖 Kritrim: Modular Snap-and-Fit Humanoid Robot
 
-> **Team Ourobonics** | **SIH 2025 Grand Finalists**
-> ![WhatsApp Image 2025-11-25 at 00 36 26_edaedef1](https://github.com/user-attachments/assets/bbe8c5e8-7ee5-4846-a6eb-50a90900cfa6)
+Team Ourobonics | AICTE Hardware Edition 2025 – Atmanirbhar Bharat
+Problem Statement ID: ID-25117
+Theme: Robotics & Drones – Indigenous Automation
 
->
-> **Theme:** Smart Automation | **Problem Statement ID:** 25117
->
-> **Focus:** Swadeshi for Atmanirbhar Bharat - Robotics and Drones
+📖 Overview
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue) ![ROS](https://img.shields.io/badge/ROS-Noetic-green) ![LiveKit](https://img.shields.io/badge/LiveKit-RealTime-orange) ![Status](https://img.shields.io/badge/Status-Prototype-success)
+Kritrim is an indigenous humanoid robot designed using a modular snap-and-fit architecture, enabling rapid part replacement, repair, and customization without requiring technical expertise.
 
-## 📖 Overview
+Built with the goal of contributing to Atmanirbhar Bharat, Kritrim is a cost-effective, scalable hardware platform that supports multilingual assistance through a real-time communication engine.
 
-**Kritrim** is an affordable, emotion-aware humanoid robot designed to empower MSMEs (Micro, Small, and Medium Enterprises) and public service desks.
+This design makes it ideal for:
 
-Unlike existing global solutions that cost between ₹20-60 Lakh, Kritrim provides an **indigenous, modular alternative costing significantly less (approx. ₹5-7 Lakh)**. It is engineered to automate repetitive tasks—such as answering FAQs, providing directions, and greeting visitors—while bridging language barriers through advanced multilingual NLP.
+Educational labs
 
-## 🎯 Key Features
+MSME automation
 
-* **🗣️ Multilingual Support:** Communicates fluently in English, Hindi, and regional languages to assist diverse demographics.
-* **🎭 Emotion AI:** Detects user tone, pitch, and facial expressions to provide empathetic and consistent service.
-* **👁️ AI Vision:** Capable of detecting customers and analyzing surroundings for better interaction using Computer Vision.
-* **📉 Cost-Effective Hardware:** Built using Raspberry Pi and Arduino, making it accessible for small businesses.
-* **📶 Offline Capability:** Designed to function effectively even without consistent internet connectivity.
+Reception & help-desk workflows
 
----
+Robotics research and rapid prototyping
 
+🎯 Key Features
 
+🧩 Snap-and-Fit Modular Body
+Replace or upgrade components (arms, head, sensors, panels) quickly with zero technical skills.
 
-## 🛠️ Tech Stack
+🗣️ Multilingual Assistant (LiveKit)
+Responds and interacts in multiple languages using a real-time voice module.
 
-### Hardware
-| Component | Description |
-| :--- | :--- |
-| **Core Compute** | Raspberry Pi 4/5 |
-| **Control** | Arduino, Servo Motors |
-| **Sensors** | HD Cameras (Vision), Array Microphones |
+🎙️ Natural Human Interaction
+Real-time speech processing and dynamic response generation.
 
-### Software & AI
-* **Languages:** Python, C++
-* **Robotics Framework:** ROS (Robot Operating System)
-* **NLP & Voice:** WebRTC
-* **Real-Time Comms:** LiveKit
-* **Cloud** Google Cloud 
+⚙️ Low-Cost Indigenous Hardware
+Built with easily available components for affordability and maintainability.
 
----
+🔧 Repair-Friendly Design
+Anyone can detach and replace faulty parts in minutes.
 
-## ⚙️ Architecture
+🛠️ Tech Stack
+Hardware
+Component	Description
+Processing	Microcontrollers (Arduino Class)
+Actuation	Servo Motors (modular fit)
+Sensors	Cameras, Microphone modules
+Chassis	3D-printed modular snap-fit parts
+Software
 
-The system operates on a continuous feedback loop comprising four main stages:
+Languages: Python, C++
 
-```mermaid
+Real-Time Engine: LiveKit
+
+Communication: WebRTC
+
+Speech Processing: Speech-to-Text APIs
+
+Robotics Logic: Motion control, module mapping, state machine
+
+⚙️ Architecture
+
+Updated to match the resume (LiveKit + STT + Motion logic):
+
 graph TD
-    A[Perception] -->|Audio & Visual Data| B(Processing)
-    B -->|OpenCV| C{Decision Engine}
-    B -->|LiveKit Streaming| C
-    C -->|Emotion AI & NLP| D[Action]
-    D -->|Servo Actuation| E[Gesture]
-    D -->|Audio Playback| F[Response]
+    A[Audio/Visual Input] -->|WebRTC Stream| B(Real-Time Engine: LiveKit)
+    B -->|Speech-to-Text APIs| C[Processing Layer]
+    C -->|Intent + Command| D{Decision Engine}
+    D -->|Motion Logic| E[Servo Control]
+    D -->|Voice Response| F[Audio Output]
+    E --> G[Physical Gesture / Movement]
+    F --> H[Multilingual Response]
+
