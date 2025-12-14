@@ -1,8 +1,10 @@
+<!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bbe8c5e8-7ee5-4846-a6eb-50a90900cfa6" 
-       alt="Team Ourobonics Winning Moment" width="100%">
+  <img src="PASTE-YOUR-IMAGE-URL-HERE" 
+       alt="Team Ourobonics Winning SIH Moment" width="100%">
 </p>
 
+<!-- ================== TITLE ================== -->
 # 🤖 Kritrim: Modular Snap-and-Fit Humanoid Robot
 
 > **Team Ourobonics** | **AICTE Hardware Edition 2025 – Atmanirbhar Bharat**  
