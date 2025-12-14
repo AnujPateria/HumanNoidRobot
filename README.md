@@ -1,9 +1,3 @@
-<!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/1796c996-7ff5-4556-b6fd-f26f2d567a51" 
-       alt="Team Ourobonics Winning SIH Moment" width="100%">
-</p>
-
 <!-- ================== TITLE ================== -->
 # 🤖 Kritrim: Modular Snap-and-Fit Humanoid Robot
 
@@ -19,6 +13,12 @@
 </p>
 
 ---
+
+<!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1796c996-7ff5-4556-b6fd-f26f2d567a51" 
+       alt="Team Ourobonics Winning SIH Moment" width="100%">
+</p>
 
 ## 📖 Overview
 
