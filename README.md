@@ -1,6 +1,7 @@
 <!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
 <p align="center">
-  <img src="PASTE-YOUR-IMAGE-URL-HERE" 
+  <img src="![Uploading WhatsApp Image 2025-12-12 at 22.47.57_a05be688.jpg…]()
+" 
        alt="Team Ourobonics Winning SIH Moment" width="100%">
 </p>
 
