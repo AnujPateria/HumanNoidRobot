@@ -1,71 +1,80 @@
-🤖 Kritrim: Modular Snap-and-Fit Humanoid Robot
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bbe8c5e8-7ee5-4846-a6eb-50a90900cfa6" 
+       alt="Team Ourobonics Winning Moment" width="100%">
+</p>
 
-Team Ourobonics | AICTE Hardware Edition 2025 – Atmanirbhar Bharat
-Problem Statement ID: ID-25117
-Theme: Robotics & Drones – Indigenous Automation
+# 🤖 Kritrim: Modular Snap-and-Fit Humanoid Robot
 
-📖 Overview
+> **Team Ourobonics** | **AICTE Hardware Edition 2025 – Atmanirbhar Bharat**  
+> **Problem Statement ID:** ID-25117  
+> **Theme:** Robotics & Drones – Indigenous Automation  
 
-Kritrim is an indigenous humanoid robot designed using a modular snap-and-fit architecture, enabling rapid part replacement, repair, and customization without requiring technical expertise.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue">
+  <img src="https://img.shields.io/badge/LiveKit-RealTime-orange">
+  <img src="https://img.shields.io/badge/WebRTC-Enabled-green">
+  <img src="https://img.shields.io/badge/Status-Prototype-success">
+</p>
 
-Built with the goal of contributing to Atmanirbhar Bharat, Kritrim is a cost-effective, scalable hardware platform that supports multilingual assistance through a real-time communication engine.
+---
 
-This design makes it ideal for:
+## 📖 Overview
 
-Educational labs
+**Kritrim** is an indigenous humanoid robot built using a **modular snap-and-fit architecture**, allowing any part (arms, head, panels, sensors) to be replaced or repaired **without technical expertise**.
 
-MSME automation
+It delivers a **multilingual AI assistant** capable of real-time speech interaction using LiveKit and Speech-to-Text APIs.
 
-Reception & help-desk workflows
+This modular, low-cost design makes Kritrim ideal for:
 
-Robotics research and rapid prototyping
+- MSME automation  
+- Reception & help-desk workflows  
+- Educational robotics labs  
+- Rapid prototyping in research  
 
-🎯 Key Features
+---
 
-🧩 Snap-and-Fit Modular Body
-Replace or upgrade components (arms, head, sensors, panels) quickly with zero technical skills.
+## 🎯 Key Features
 
-🗣️ Multilingual Assistant (LiveKit)
-Responds and interacts in multiple languages using a real-time voice module.
+### 🔧 **Snap-and-Fit Modular Architecture**
+Easily replace or upgrade arms, torso, head unit, or sensors within minutes.
 
-🎙️ Natural Human Interaction
-Real-time speech processing and dynamic response generation.
+### 🗣️ **Multilingual AI Assistant**
+LiveKit-powered real-time speech engine enabling interactions in multiple languages.
 
-⚙️ Low-Cost Indigenous Hardware
-Built with easily available components for affordability and maintainability.
+### 🤖 **On-Device Motion & Control**
+Integrated motion logic for servo actuation and gesture control.
 
-🔧 Repair-Friendly Design
-Anyone can detach and replace faulty parts in minutes.
+### 💸 **Affordable Indigenous Hardware**
+Designed under the Atmanirbhar Bharat initiative using accessible components.
 
-🛠️ Tech Stack
-Hardware
-Component	Description
-Processing	Microcontrollers (Arduino Class)
-Actuation	Servo Motors (modular fit)
-Sensors	Cameras, Microphone modules
-Chassis	3D-printed modular snap-fit parts
-Software
+---
 
-Languages: Python, C++
+## 🛠️ Tech Stack
 
-Real-Time Engine: LiveKit
+### **Hardware**
+| Component | Description |
+|----------|-------------|
+| **Processor** | Microcontrollers (Arduino class) |
+| **Actuation** | Servo Motors (modular snap-fit) |
+| **Sensors** | Camera + Microphone modules |
+| **Body** | 3D-printed snap-and-fit chassis |
 
-Communication: WebRTC
+### **Software**
+- **Languages:** Python, C++  
+- **Real-Time Engine:** LiveKit  
+- **Communication:** WebRTC  
+- **Speech Processing:** STT APIs  
+- **Robotics Logic:** Motion control, state machine, module mapping  
 
-Speech Processing: Speech-to-Text APIs
+---
 
-Robotics Logic: Motion control, module mapping, state machine
+## ⚙️ Architecture
 
-⚙️ Architecture
-
-Updated to match the resume (LiveKit + STT + Motion logic):
-
+```mermaid
 graph TD
     A[Audio/Visual Input] -->|WebRTC Stream| B(Real-Time Engine: LiveKit)
     B -->|Speech-to-Text APIs| C[Processing Layer]
     C -->|Intent + Command| D{Decision Engine}
     D -->|Motion Logic| E[Servo Control]
-    D -->|Voice Response| F[Audio Output]
+    D -->|Voice Output| F[Multilingual Response]
     E --> G[Physical Gesture / Movement]
-    F --> H[Multilingual Response]
-
