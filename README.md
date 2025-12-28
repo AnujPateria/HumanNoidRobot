@@ -18,7 +18,7 @@
   <img 
     src="https://github.com/user-attachments/assets/31fdc063-4b8e-488c-a3cd-0450ec161577"
     alt="Team Ourobonics"
-    width="50%"
+    width="35%"
   />
 </p>
 
