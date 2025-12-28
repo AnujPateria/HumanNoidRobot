@@ -15,9 +15,11 @@
 
 <!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
 <p align="center">
-  <img src="![WhatsApp Image 2025-12-28 at 11 18 27 PM](https://github.com/user-attachments/assets/31fdc063-4b8e-488c-a3cd-0450ec161577)
-" 
-       alt="Team Ourobonics" width="100%">
+  <img 
+    src="https://github.com/user-attachments/assets/31fdc063-4b8e-488c-a3cd-0450ec161577"
+    alt="Team Ourobonics"
+    width="100%"
+  />
 </p>
 
 Kritrim is a **snap-and-fit modular humanoid robot** designed to solve one of the biggest problems in robotics today — **maintenance complexity and downtime**.
