@@ -1,0 +1,28 @@
+# 🔧 Round 2 Improvements – Kritrim Modular Humanoid Robot
+
+**Team:** Ourobonics  
+**Project:** Kritrim – Snap-and-Fit Modular Humanoid Robot  
+
+---
+
+## 📌 Objective of Round 2
+
+The primary goal of Round 2 is to **properly integrate and stabilize the software modules with the physical hardware modules** so that the robot works **reliably, predictably, and continuously**.
+
+Round 2 focuses on **system integration**
+
+---
+
+## 1️⃣ Software–Hardware Integration
+
+### Current State (Round 1)
+- Snap-and-fit modular hardware demonstrated  
+- AI interaction demonstrated independently  
+- Basic control logic tested  
+
+
+### Round 2 Work
+- Synchronize:
+  - Software decision timing
+
+
