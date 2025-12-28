@@ -16,11 +16,12 @@
 <!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
 <p align="center">
   <img 
-    src="https://github.com/user-attachments/assets/31fdc063-4b8e-488c-a3cd-0450ec161577"
+    src="https://github.com/user-attachments/assets/006a4298-2e04-48d3-bbff-5a05e5702941"
     alt="Team Ourobonics"
-    width="35%"
+    width="75%"
   />
 </p>
+
 
 Kritrim is a **snap-and-fit modular humanoid robot** designed to solve one of the biggest problems in robotics today — **maintenance complexity and downtime**.
 
@@ -71,7 +72,6 @@ Kritrim introduces a **fully modular humanoid architecture** where:
 ## 🧠 Key Innovations
 
 - ✅ Tool-free snap-and-fit mechanical design  
-- ✅ Pin-guided self-aligning connectors (no magnets used)  
 - ✅ Plug-and-play modular architecture  
 - ✅ Automatic module detection & configuration  
 - ✅ Human-centric multilingual interaction  
@@ -82,7 +82,7 @@ Kritrim introduces a **fully modular humanoid architecture** where:
 ## 🧩 System Architecture
 
 ### Hardware Layer
-- Modular limbs (arms, legs)
+- Modular limbs (arms)
 - Head module (camera, mic, speaker)
 - Torso core module (controller + power)
 - Snap-fit mechanical locking pins
@@ -92,9 +92,5 @@ Kritrim introduces a **fully modular humanoid architecture** where:
 - Module detection logic
 - AI interaction engine
 - Multilingual response system
-- Motion control abstraction per module
 
----
-
-## 📊 Functional Flow (Textual DFD)
 
