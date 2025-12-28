@@ -10,8 +10,8 @@
 └──────────────────────────────────────────┘
                     ↓
 ┌──────────────────────────────────────────┐
-│          Decide Required Robot Modules    │
-│   (Head, Arm, Hand, Sensor, Torso, Power) │
+│        Decide Required Robot Modules      │
+│         (Head, Arm, Hand, Power)          │
 └──────────────────────────────────────────┘
                     ↓
 ┌──────────────────────────────────────────┐
