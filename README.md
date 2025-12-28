@@ -1,37 +1,98 @@
-# Kritrim – Snap-and-Fit Modular Humanoid Robot
-Team: Ourobonics
+<!-- ================== TITLE ================== -->
+# 🤖 Kritrim: Modular Snap-and-Fit Humanoid Robot
 
-## Problem
-Humanoid robots today:
-- Are extremely expensive
-- Require engineers for repair
-- Cannot be customized by end users
-- Cause long downtime if one part fails
+> **Team Ourobonics**  
+> **Theme:** Open Innovation
 
-This makes them impractical for MSMEs, hospitals, and public service environments.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue">
+  <img src="https://img.shields.io/badge/LiveKit-RealTime-orange">
+  <img src="https://img.shields.io/badge/WebRTC-Enabled-green">
+  <img src="https://img.shields.io/badge/Status-Prototype-success">
+</p>
 
-## Our Solution
-Kritrim is a modular humanoid robot designed using a **pin + magnet snap-fit mechanism**.
+---
 
-Each robot part is a self-contained module.
-If a module fails, **any normal person** can:
-1. Remove the faulty module
-2. Purchase a replacement module
-3. Snap it into place — no tools, no engineers
+<!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
+<p align="center">
+  <img src="![WhatsApp Image 2025-12-28 at 11 18 27 PM](https://github.com/user-attachments/assets/31fdc063-4b8e-488c-a3cd-0450ec161577)
+" 
+       alt="Team Ourobonics" width="100%">
+</p>
 
-The robot automatically detects the module and resumes operation.
+Kritrim is a **snap-and-fit modular humanoid robot** designed to solve one of the biggest problems in robotics today — **maintenance complexity and downtime**.
 
-## Key Innovation
-- Tool-free snap-and-fit modular design
-- Magnetic locking with alignment pins
-- Human-centric multilingual interaction
-- Designed for easy maintenance and scalability
+Unlike traditional humanoid robots that require engineers and tools for repair, Kritrim is built so that **any normal person** can replace a faulty module using a **pure mechanical snap-and-fit design**.
 
-## Use Cases
-- MSME customer service desks
-- Hospitals & radiology rooms
-- Libraries and public help desks
-- Industrial and chemical environments
+No tools.  
+No engineers.  
+Minimal downtime.
 
-## Prototype
-Working prototype with AI interaction and modular concept demonstrated.
+---
+
+## ❓ Problem Statement
+
+Existing humanoid robots face the following challenges:
+
+- Very high manufacturing and maintenance cost  
+- Dependence on skilled engineers for repair  
+- No modular customization for end users  
+- Entire robot becomes unusable if one part fails  
+
+This makes them unsuitable for:
+- MSMEs  
+- Hospitals  
+- Public service environments  
+- Industrial or hazardous workplaces  
+
+---
+
+## 💡 Our Solution
+
+Kritrim introduces a **fully modular humanoid architecture** where:
+
+- Each body part is an independent module  
+- Modules use a **snap-and-fit pin locking mechanism**  
+- Faulty modules can be replaced instantly  
+- Robot auto-detects the newly attached module  
+
+### 🔁 Module Replacement Flow
+
+1. Identify faulty module  
+2. Detach using simple manual pull  
+3. Purchase replacement module  
+4. Snap module into place  
+5. Robot resumes operation automatically  
+
+---
+
+## 🧠 Key Innovations
+
+- ✅ Tool-free snap-and-fit mechanical design  
+- ✅ Pin-guided self-aligning connectors (no magnets used)  
+- ✅ Plug-and-play modular architecture  
+- ✅ Automatic module detection & configuration  
+- ✅ Human-centric multilingual interaction  
+- ✅ Designed for scalability and mass adoption  
+
+---
+
+## 🧩 System Architecture
+
+### Hardware Layer
+- Modular limbs (arms, legs)
+- Head module (camera, mic, speaker)
+- Torso core module (controller + power)
+- Snap-fit mechanical locking pins
+- Standardized electrical connectors
+
+### Software Layer
+- Module detection logic
+- AI interaction engine
+- Multilingual response system
+- Motion control abstraction per module
+
+---
+
+## 📊 Functional Flow (Textual DFD)
+
