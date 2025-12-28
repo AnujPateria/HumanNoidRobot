@@ -13,12 +13,11 @@
 
 ---
 
-<!-- ================== TEAM TROPHY PHOTO (ADD YOUR IMAGE URL BELOW) ================== -->
 <p align="center">
   <img 
     src="https://github.com/user-attachments/assets/31fdc063-4b8e-488c-a3cd-0450ec161577"
     alt="Team Ourobonics"
-    width="100%"
+    width="35%"
   />
 </p>
 
