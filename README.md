@@ -1,63 +1,76 @@
-🤖 Kritrim – AI-Driven Modular Snap-and-Fit Humanoid Robot
+# 🤖 Kritrim – AI-Driven Modular Snap-and-Fit Humanoid Robot  
 
-Team Ourobonics
-Track: The Slingshot (Online) – Hack the Winter
-Theme: Open Innovation
-Focus: MSME Empowerment & High-Risk Work Environments
+**Team Ourobonics**  
+**Track:** The Slingshot (Online) – Hack the Winter  
+**Theme:** Open Innovation  
+**Focus:** MSME Empowerment & High-Risk Work Environments  
 
-<p align="center"> <img src="https://img.shields.io/badge/Python-3.8%2B-blue"> <img src="https://img.shields.io/badge/Gemini%20API-AI%20Brain-purple"> <img src="https://img.shields.io/badge/Raspberry%20Pi-Embedded%20Control-red"> <img src="https://img.shields.io/badge/Status-Prototype-success"> </p>
-🧠 Project Overview
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue">
+  <img src="https://img.shields.io/badge/Gemini%20API-AI%20Brain-purple">
+  <img src="https://img.shields.io/badge/Raspberry%20Pi-Embedded%20Control-red">
+  <img src="https://img.shields.io/badge/Status-Prototype-success">
+</p>
 
-Kritrim is an AI-driven, modular humanoid robot designed with a snap-and-fit architecture that allows tool-free replacement of robot parts by non-technical users.
+---
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/60083a79-85d7-4273-b9dd-b457cb99fc75" width="300" alt="Kritrim System Architecture">
+</p>
+
+
+---
+
+
+## 🧠 Project Overview
+
+**Kritrim** is an AI-driven, modular humanoid robot designed with a **snap-and-fit architecture** that allows **tool-free replacement of robot parts by non-technical users**.
 
 The system targets:
 
-MSMEs suffering from staff shortages and high maintenance costs
+- MSMEs suffering from staff shortages and high maintenance costs  
+- High-risk environments such as radiology rooms, chemical plants, and industrial zones where human exposure is dangerous  
 
-High-risk environments such as radiology rooms, chemical plants, and industrial zones where human exposure is dangerous
+Unlike existing humanoid robots that are expensive, monolithic, and hard to repair, **Kritrim is**:
 
-Unlike existing humanoid robots that are expensive, monolithic, and hard to repair, Kritrim is:
+- 70–80% cheaper  
+- Fully modular  
+- Repairable without engineers  
+- Scalable across industries  
 
-70–80% cheaper
+---
 
-Modular
-
-Repairable without engineers
-
-Scalable across industries
-
-❓ Problem Statement
+## ❓ Problem Statement
 
 Current humanoid robots face major limitations:
 
-Very high cost (₹20–60 lakh)
-
-Non-modular hardware
-
-Long downtime if a single part fails
-
-Dependence on skilled technicians
-
-Unsafe for hazardous environments
+- Very high cost (₹20–60 lakh)  
+- Non-modular hardware  
+- Long downtime if a single part fails  
+- Dependence on skilled technicians  
+- Unsafe for hazardous environments  
 
 These limitations make humanoid robots impractical for Indian MSMEs and public-facing or high-risk workplaces.
 
-💡 Our Solution
+---
 
-Kritrim introduces a snap-and-fit modular humanoid architecture where:
+## 💡 Our Solution
 
-Each body part (arm, head, torso) is an independent module
+Kritrim introduces a **snap-and-fit modular humanoid architecture** where:
 
-Modules connect using mechanical locking pins + standardized electrical connectors
+- Each body part (arm, head) is an independent module  
+- Modules connect using **mechanical locking pins + standardized electrical connectors**  
+- Faulty modules can be replaced instantly — **no tools, no engineers**  
+- The robot automatically detects and configures new modules  
+- Materials can be customized (radiation-safe, chemical-resistant, lightweight)  
 
-Faulty modules can be replaced instantly — no tools, no engineers
+---
 
-The robot automatically detects and configures new modules
+## 🧩 System Architecture (High-Level)
+### 📊 Basic System Diagram
 
-Materials can be customized (radiation-safe, chemical-resistant, lightweight)
-
-🧩 System Architecture (High-Level)
-📊 Basic System Diagram
+```text
 User (Voice / Presence)
         ↓
 Sensors (Camera, Mic)
@@ -74,168 +87,192 @@ Robot Modules (Arms, Head, Torso)
         ↓
 Sensors → Feedback Loop → Raspberry Pi
 
+```
 
-The Raspberry Pi is physically embedded inside the robot and acts as the on-device controller, while Gemini API provides advanced AI intelligence.
 
-⚙️ How the System Works (End-to-End)
 
-User interacts with Kritrim using voice or physical presence.
+The **Raspberry Pi** is physically embedded inside the robot and acts as the on-device controller, while the **Gemini API** provides advanced AI intelligence.
 
-Sensors connected to the Raspberry Pi capture audio/video input.
+---
 
-Raspberry Pi preprocesses input and sends it to the Gemini API.
+## ⚙️ How the System Works (End-to-End)
 
-Gemini API performs intent recognition, reasoning, and response planning.
+1. User interacts with Kritrim using voice or physical presence  
+2. Sensors connected to the Raspberry Pi capture audio/video input  
+3. Raspberry Pi preprocesses input and sends it to the Gemini API  
+4. Gemini API performs intent recognition, reasoning, and response planning  
+5. AI-generated commands are returned to the Raspberry Pi  
+6. Raspberry Pi maps commands to specific robot modules  
+7. Robot executes actions (movement, speech, guidance)  
+8. Sensors continuously provide feedback for adaptive behavior  
+9. If a module is removed or replaced, the system auto-reconfigures  
 
-AI-generated commands are returned to the Raspberry Pi.
+---
 
-Raspberry Pi maps commands to specific robot modules.
+## 🧠 Technical Architecture
 
-Robot executes actions (movement, speech, guidance).
+### Hardware Components
 
-Sensors continuously provide feedback for adaptive behavior.
+- Raspberry Pi (embedded inside robot)  
+- Arduino (motor control)  
+- Webcam, microphone, speaker  
+- Servo motors (DS60 – 60kg, MG90s)  
+- Snap-and-fit mechanical modules  
 
-If a module is removed or replaced, the system auto-reconfigures.
+### Software & AI Stack
 
-🧠 Technical Architecture
-Hardware Components
+- Python  
+- Gemini API (AI reasoning, NLP, decision-making)  
+- Embedded Linux (Raspberry Pi OS)  
+- Speech-to-Text API  
+- Robotics control logic  
 
-Raspberry Pi (embedded inside robot)
+---
 
-Arduino (motor control)
+## ⚙️ Edge AI + Cloud Intelligence
 
-Webcam, microphone, speaker
+Kritrim uses a **hybrid intelligence model**:
 
-Servo motors (DS60 – 60kg, MG90s)
+- Raspberry Pi handles real-time control and safety-critical actions  
+- Gemini API provides advanced reasoning and language understanding  
+- Low-latency execution happens locally  
+- Cloud AI improves adaptability and intelligence  
 
-Snap-and-fit mechanical modules
+This ensures **reliability, scalability, and responsiveness**.
 
-Software & AI Stack
+---
 
-Python
+## 📈 Scalability & Failure Handling
 
-Gemini API (AI reasoning, NLP, decision-making)
+### Handling Growth
 
-Embedded Linux (Raspberry Pi OS)
+- Modular hardware enables mass production  
+- Same robot platform adapts across industries  
+- New modules can be added without redesign  
 
-Speech-to-Text API
+### Fault Tolerance
 
-Robotics control logic
+- Faulty modules are isolated automatically  
+- Robot continues operating with remaining modules  
+- Only the damaged module needs replacement  
+- Logs enable predictive maintenance  
 
-⚙️ Edge AI + Cloud Intelligence
+### Cost & Maintenance Advantage
 
-Kritrim uses a hybrid intelligence model:
+- No full-robot replacement  
+- Minimal downtime  
+- Affordable for MSMEs  
 
-Raspberry Pi handles real-time control and safety-critical actions.
+---
 
-Gemini API provides advanced reasoning and language understanding.
+## 🌍 Impact & Use Cases
 
-Low-latency execution happens locally.
+### High-Risk Environments
 
-Cloud AI improves adaptability and intelligence.
+- Radiology rooms  
+- Chemical plants  
+- Industrial zones  
 
-This ensures reliability, scalability, and responsiveness.
+### Service Environments
 
-📈 Scalability & Failure Handling
-Handling Growth
+- MSMEs & reception desks  
+- Hospitals  
+- Libraries & public offices  
+- Educational institutions  
 
-One backend AI service can support multiple robots
+### Key Benefits
 
-Modular hardware enables mass production
+- Improved human safety  
+- Reduced operational cost  
+- Increased efficiency  
+- Adaptability across sectors  
 
-Same robot platform adapts across industries
+---
 
-New modules can be added without redesign
+## 👥 Team Contributions
 
-Fault Tolerance
+### **Anuj Pateria**
 
-Faulty modules are isolated automatically
+- Led the **software development and AI integration**
+- Designed and implemented the **voice assistant system**
+- Integrated the AI assistant with **Raspberry Pi (embedded controller)**
+- Handled **Python-based logic**, AI workflows, and on-device processing
+- Managed overall **software architecture and system integration**
+- Maintained documentation and GitHub repository structure
 
-Robot continues operating with remaining modules
+---
 
-Only the damaged module needs replacement
+### **Shams Parvez**
 
-Logs enable predictive maintenance
+- Worked on the **robot hardware architecture**
+- Contributed to the **modular snap-and-fit design logic**
+- Assisted in defining **robot movement and control flow**
+- Helped align mechanical design with system requirements
+- Supported overall architecture planning and validation
 
-Cost & Maintenance Advantage
+---
 
-No full-robot replacement
+### **Shubham**
 
-Minimal downtime
+- Co-developed the **robot control logic**
+- Worked on **modular system behavior and fault-handling logic**
+- Assisted in defining **module interaction and coordination**
+- Contributed to **end-to-end workflow design**
+- Supported integration between hardware and software components
 
-Affordable for MSMEs
+---
 
-🌍 Impact & Use Cases
-High-Risk Environments
+### **Baksheesh Singh**
 
-Radiology rooms
+- Led **research and analysis** related to humanoid and modular robotics
+- Studied **existing systems, limitations, and innovation gaps**
+- Contributed to **problem validation and use-case research**
+- Assisted in documentation, references, and feasibility analysis
+- Supported exceptional and miscellaneous project requirements
 
-Chemical plants
+---
 
-Industrial zones
+### 🤝 Team Collaboration
 
-Service Environments
+- All four members contributed **equally** to ideation, discussions, and decision-making
+- The project was developed through **collaborative planning and execution**
+- Each member played a critical role in making the system functional and scalable
 
-MSMEs & reception desks
+---
 
-Hospitals
-
-Libraries & public offices
-
-Educational institutions
-
-Key Benefits
-
-Improved human safety
-
-Reduced operational cost
-
-Increased efficiency
-
-Adaptability across sectors
-
-👥 Team Contributions
-Anuj Pateria
-
-Problem identification & concept ideation
-
-Modular humanoid system design
-
-Snap-and-fit architecture research
-
-Embedded system planning (Raspberry Pi)
-
-AI workflow design using Gemini API
-
-System architecture & scalability planning
-
-Documentation & GitHub management
-
-📁 Repository Structure
+## 📁 Repository Structure
+```
 HumanNoidRobot/
 │
 ├── docs/
-│   └── system_architecture.png
+│ └── system_architecture.png
 │
 ├── research/
-│   └── modular_robotics_notes.md
+│ └── modular_robotics_notes.md
 │
 ├── README.md
 ├── ARCHITECTURE.md
 ├── SCALABILITY.md
 └── TEAM.md
+```
 
-📚 Research & References
+---
 
-Modularity in humanoid robot design (IEEE)
+## 📚 Research & References
 
-Advancements in humanoid robots – comprehensive review
+- Modularity in humanoid robot design (IEEE)  
+- Advancements in humanoid robots – comprehensive review  
+- India humanoid robot market outlook (2024–2030)  
+- Studies on modular and distributed robotic systems  
 
-India humanoid robot market outlook (2024–2030)
+---
 
-Studies on modular and distributed robotic systems
+## 🚀 Conclusion
 
-🚀 Conclusion
+Kritrim is a **practical, scalable, and Indian-centric humanoid robot** designed for real-world deployment.
 
-Kritrim is a practical, scalable, and Indian-centric humanoid robot designed for real-world deployment.
-By combining modular hardware, snap-and-fit repairability, embedded edge control, and Gemini-powered AI, Kritrim directly supports the vision of Atmanirbhar Bharat and Digital India.
+By combining **modular hardware**, **snap-and-fit repairability**, **embedded edge control**, and **Gemini-powered AI**, Kritrim directly supports the vision of **Atmanirbhar Bharat** and **Digital India**.
+
+
+
+
