@@ -250,14 +250,18 @@ HumanNoidRobot/
 ├── research/
 │   └── modular_robotics_notes.md
 │
+├── FlowChart/
+│   ├── Phase1_HardwareDesign.md
+│   └── Phase2_SoftwareDecisionTiming.md
+│
 ├── src/
 │   ├── assistant/
-│   │   ├── main.py              # Your voice assistant code
+│   │   ├── main.py              # Voice assistant (Gemini + LiveKit)
 │   │   ├── prompts.py           # AGENT_INSTRUCTION, SESSION_INSTRUCTION
-│   │   └── requirements.txt     # livekit, google, python-dotenv, etc.
+│   │   └── requirements.txt     # livekit, google, python-dotenv
 │   │
 │   └── control/
-│       └── robot_control.py     # (future) motor & module control logic
+│       └── robot_control.py     # Motor & module control logic (future)
 │
 ├── README.md
 ├── ARCHITECTURE.md
