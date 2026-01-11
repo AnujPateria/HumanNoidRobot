@@ -244,6 +244,9 @@ This ensures **reliability, scalability, and responsiveness**.
 ```
 HumanNoidRobot/
 │
+├── VideoExplanation
+│   └── VideoExplanationLink
+│   
 ├── docs/
 │   └── system_architecture.png
 │
