@@ -245,15 +245,25 @@ This ensures **reliability, scalability, and responsiveness**.
 HumanNoidRobot/
 │
 ├── docs/
-│ └── system_architecture.png
+│   └── system_architecture.png
 │
 ├── research/
-│ └── modular_robotics_notes.md
+│   └── modular_robotics_notes.md
+│
+├── src/
+│   ├── assistant/
+│   │   ├── main.py              # Your voice assistant code
+│   │   ├── prompts.py           # AGENT_INSTRUCTION, SESSION_INSTRUCTION
+│   │   └── requirements.txt     # livekit, google, python-dotenv, etc.
+│   │
+│   └── control/
+│       └── robot_control.py     # (future) motor & module control logic
 │
 ├── README.md
 ├── ARCHITECTURE.md
 ├── SCALABILITY.md
 └── TEAM.md
+
 ```
 
 ---
