@@ -1,8 +1,8 @@
 # 🤖 Kritrim – AI-Driven Modular Snap-and-Fit Humanoid Robot  
 
 **Team Ourobonics**  
-**Track:** The Slingshot (Online) – Hack the Winter  
-**Theme:** Open Innovation  
+**Track:** Smart India Hackathon 2025 Winner  
+**Theme:** AICTE Robotics & Drones Hardware Edition (Open Innovation)   
 **Focus:** MSME Empowerment & High-Risk Work Environments  
 
 <p align="center">
@@ -12,12 +12,14 @@
   <img src="https://img.shields.io/badge/Status-Prototype-success">
 </p>
 
+
 ---
+<img width="1600" height="719" alt="WhatsApp Image 2025-12-12 at 22 47 57_a05be688" src="https://github.com/user-attachments/assets/9ac542c2-4e57-4c0f-9bf6-a49768d5dfef" />
 
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github.com/user-attachments/assets/60083a79-85d7-4273-b9dd-b457cb99fc75" width="300" alt="Kritrim System Architecture">
-</p>
+</p> -->
 
 
 ---
